@@ -1,4 +1,51 @@
-html {
-    font-size: 16px;
-    background-color: cornflowerblue;    
+/* Definición de variables de color */
+:root {
+  --dark-gray: hsl(0, 0%, 63%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --very-dark-gray: hsl(0, 0%, 27%);
 }
+
+/* Estilos generales */
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+header{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    margin: 20px 50px;
+}
+
+
+ul
+{
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+
+li{
+    margin: 0 10px;
+
+}
+
+.container {
+    display: flexbox;
+    position: absolute;
+    z-index: 90;
+    max-width: 100%;
+}
+img .mobile{
+    display: none;
+}
+
