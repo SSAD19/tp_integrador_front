@@ -13,9 +13,8 @@ body {
   padding: 0;
   background-color: var(--white);
   color: var(--very-dark-gray);
-  min-height: 100vh;
-  min-width: 100vh;
-  overflow-x: hidden;
+  height: fit-content;
+  width: fit-content;
 }
 
 header {
@@ -76,6 +75,7 @@ li {
   padding: 2rem 3rem;
   position: relative;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .first-content-text {
@@ -104,9 +104,8 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+  align-items: start;
+  padding: 3rem;
 }
 
 .carousel-menu-desktop {
@@ -115,7 +114,7 @@ li {
   gap: 40px;
   align-items: center;
   background-color: var(--black);
-  padding:1.5rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -130,7 +129,7 @@ li {
   height: 3rem;
 }
 
-h2{
+h2 {
   font-size: 2.6rem;
   font-weight: 600;
   letter-spacing: 0.5rem;
