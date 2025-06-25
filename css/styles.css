@@ -34,6 +34,10 @@ nav a {
   color: var(--white);
 }
 
+nav a:hover{
+  color: var(--black);
+}
+
 a {
   color: inherit;
   text-decoration: none;
